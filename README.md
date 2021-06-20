@@ -13,7 +13,7 @@
 
 # Objetivo 
 
-- O objetivo deste projeto foi criar um formulário de Cadastro e Login. Se o usuário entrar com a senha errada ele vai receber uma mensagem de erro, caso Login estejagit  correto, o usuário vai receber uma mensagem de que o Login foi efetuado com sucesso.
+- O objetivo deste projeto foi criar um formulário de Cadastro e Login. Se o usuário entrar com a senha errada ele vai receber uma mensagem de erro, caso Login esteja correto, o usuário vai receber uma mensagem de que o Login foi efetuado com sucesso.
 
 # Iniciando o Projeto 
 ```
