@@ -36,7 +36,7 @@ const usuarioController = {
         }
 
         if (!bcrypt.compareSync(senha, usuarioSalvo.senha)) {
-            return res.send('Senha inválida ')
+            return res.render('senhaInvalida')
         }
 
         res.redirect('/usuarios/saudacao')
