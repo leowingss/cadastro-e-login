@@ -12,4 +12,6 @@ router.get('/login', usuarioController.loginForm)
 
 router.post('/login', usuarioController.logarUsuario)
 
+router.get('/saudacao', usuarioController.saudacao)
+
 module.exports = router
