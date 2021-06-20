@@ -39,10 +39,13 @@ const usuarioController = {
             return res.render('senhaInvalida')
         }
 
+        req.session.usuario = usuarioSalvo
         res.redirect('/usuarios/saudacao')
     },
     saudacao: (req, res) => {
-        res.render('saudacao')
+        res.render('saudacao', {
+            usuario: req.session.usuario
+        })
     }
 
 
