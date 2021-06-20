@@ -1,7 +1,6 @@
 const express = require('express')
 const router = express.Router()
 const validateRegister = require('../middlewares/validation')
-
 const usuarioController = require('../controllers/usuarioController')
 
 router.get('/criar', usuarioController.registroForm)
